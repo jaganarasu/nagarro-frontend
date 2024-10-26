@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Question 3 -Test grid</title>
+    <style>
+        .page {
+            height: 600px;
+            border: 1px solid #000;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        .page__header,
+        .page__footer {
+            height: 50px;
+            border: 1px solid #000;
+        }
+
+        .page__content {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    
+<h1>
+      Stretch the "content" block to the full height of the "page" block, that
+      the header to the top of the block and the footer to the bottom.
+    </h1>
+    <div class="page">
+      <div class="page__header">Header</div>
+      <div class="page__content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores earum
+          recusandae eos quibusdam quidem eius esse repellendus nisi doloribus
+          magnam?
+        </p>
+      </div>
+      <div class="page__footer">Footer</div>
+    </div>
+</body>
+
+</html>
